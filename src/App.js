@@ -13,6 +13,7 @@ function App() {
             <LandingPage />
           </div>
       </div>
+
     </div>
   );
 }
