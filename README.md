@@ -1,2 +1,2 @@
 ##Eksamen grensesnitt: 
-2
+AAA
