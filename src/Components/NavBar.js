@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from '../img/logo.jpg'
-import bergen from '../img/bergen.png'
 import {NavLink} from 'react-router-dom';
 
 function NavBar() {
@@ -38,6 +37,5 @@ function NavBar() {
         </div>
     )
 }
-
 export default NavBar
  
