@@ -24,7 +24,7 @@ function NavBar() {
                         </NavLink>
                     </h5>
                     <h5 className="nav-item">
-                        <NavLink to="/cart" exact activeClassName="active">
+                        <NavLink to="/CartPage" exact activeClassName="active">
                             Cart
                         </NavLink>
                     </h5>
