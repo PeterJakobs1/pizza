@@ -2,7 +2,7 @@
 
 .App{
     .sidebar{
-        width: 33%;
+        width: 25%;
         height: 100vh;
         background-color: black;
         position:fixed;
@@ -14,8 +14,6 @@
         min-height: 100vh;
         background-image: url("../img/background.jpg");
         display: grid;
-
-
     }
    
 }

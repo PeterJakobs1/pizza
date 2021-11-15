@@ -1,12 +1,14 @@
 import React from 'react'
 
-function LandigPage() {
+function LandingPage() {
     return (
-        <div className="LandigPage">
-            <header className="hero">
-                <h1 className="hero-text">
-                    Hero -test
-                    <span>Lorem ipsum</span>
+        <div className="LandingPage">
+            <header className="LandingText">
+                <h1 className="landing-text">
+
+                    <h3>Delicious</h3>
+                    <h3>Authentic</h3>
+                    <h3>Italian food</h3>
                 </h1>
             </header>
             
@@ -14,4 +16,4 @@ function LandigPage() {
     )
 }
 
-export default LandigPage
+export default LandingPage
