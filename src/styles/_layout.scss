@@ -6,4 +6,30 @@
         background-color: black;
         position:fixed;
     }
+<<<<<<< HEAD
+=======
+
+    .background{
+        width: 100%;
+        background-color: rgb(253, 251, 251);
+
+    .main-content{
+        width: 85%;
+        margin-left: 25%;
+        background-color: rgb(95, 95, 95);
+        min-height: 100vh;
+        background-image: url("../img/background.jpg");
+        display: grid;
+    }
+
+    .main-content{
+        width: 80%;
+        margin-left: 20%;
+        background-color: rgb(253, 251, 251);
+        min-height: 100vh;
+        display: grid;
+        
+    }
+}
+>>>>>>> 4204a3ee477041c967b6da7960b904bb8f518f29
 }

@@ -14,12 +14,11 @@ function App() {
       </div>
       <div className="main-content">
           <div className="content">
-           
+          
             <Switch>
               <Route path="/LandingPage" exact>
               <LandingPage />
               </Route>
-
               <Route path="/CartPage" exact>
               <CartPage />
               </Route>
