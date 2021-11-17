@@ -30,7 +30,9 @@ function NavBar() {
                 </ul>
 
                 <footer className="footer">
-                   
+                     <p>
+                       @lorem Ipsum
+                     </p>
                 </footer>
             </nav>
           
