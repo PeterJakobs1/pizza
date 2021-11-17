@@ -11,15 +11,15 @@ function LandingPage() {
                     <h3>Authentic</h3>
                     <h3>Italian food</h3>
                 </h1>
-                </header>
+            </header>
 
-                
-                <button type="orderButtton">Order now</button>
-                <button type="menuButton">Menu</button>
-                
-               
-            
-            
+
+            <button type="orderButtton">Order now</button>
+            <button type="menuButton">Menu</button>
+
+
+
+
         </div>
     )
 };
