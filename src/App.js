@@ -31,9 +31,6 @@ function App() {
           
           </div>
       </div>
-      <div>
-      <CartPage/>
-      </div>
 
     </div>
   );
