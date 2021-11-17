@@ -1,4 +1,6 @@
 import React from 'react';
+import Footer from '../Components/Footer'
+
 
 function CartPage() {
 
@@ -27,7 +29,12 @@ function CartPage() {
 
 
             </div>
-
+ 
+            <div className="content-wrap">
+        <div className="line">
+        </div>
+        <Footer/>
+     </div>
 
         </div>
 
