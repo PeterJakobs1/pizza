@@ -16,7 +16,7 @@ function CartPage() {
 
             <div>
             <h1 id="someThingExtraTitle">something Extra?</h1>
-                <div id="somethingExtraContent">
+                <div id="somethingExtra-container">
                     <div>ekstra 1</div>
                     <div>ekstra 2</div>
                     <div>ekstra 3</div>
