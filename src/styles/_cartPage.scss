@@ -1,0 +1,43 @@
+
+.CartPageTitle{
+
+    overflow: scroll;
+
+    h1{
+    position: absolute;
+    left: 55%;
+    top: 2%;
+    font-size: 30px;
+    }
+
+
+    #headerLine{
+        position: absolute;
+        color: red;
+        width: 100%;
+        top:7%;
+        border: 1px solid white;
+    }
+
+    #headerLine2{
+        position: absolute;
+        color: red;
+        width: 100%;
+        top:60%;
+        border: 1px solid white;
+    }
+
+
+    #someThingExtraTitle{
+            position: absolute;
+            top: 60%;
+            text-align: left;
+
+    }
+
+    #somethingExtraContent{
+        margin-top: 40%;
+    }
+
+
+}
