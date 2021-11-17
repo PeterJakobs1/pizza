@@ -4,13 +4,28 @@
     top:30%;
     left: 40%;
 
-}
+
 
 .landingText{
     span{
         background-color: aliceblue;
         font-size: smaller;
-        
-
     }
+}
+
+    .orderButton{ 
+    border: none;
+    color: rgb(119, 2, 2);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }
+
+
+        
 }
