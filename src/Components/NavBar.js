@@ -13,12 +13,12 @@ function NavBar() {
             </div>
                 <ul className="nav-items">
                     <h5 className="nav-item">
-                        <NavLink to="/home" exact activeClassName="active">
+                        <NavLink to="/LandingPage" exact activeClassName="active">
                             Home
                         </NavLink>
                     </h5>
                     <h5 className="nav-item">
-                        <NavLink to="/products" exact activeClassName="active">
+                        <NavLink to="/ProductPage" exact activeClassName="active">
                             Products
                         </NavLink>
                     </h5>
@@ -38,4 +38,3 @@ function NavBar() {
     )
 }
 export default NavBar
- 

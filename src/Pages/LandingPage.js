@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+
 
 function LandingPage() {
     return (
@@ -10,10 +12,11 @@ function LandingPage() {
                     <h3>Authentic</h3>
                     <h3>Italian food</h3>
                 </h1>
+               
             </header>
             
         </div>
     )
 }
 
-export default LandingPage
+export default LandingPage;

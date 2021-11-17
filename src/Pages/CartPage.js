@@ -1,10 +1,13 @@
-import react from 'react';
+import React from 'react';
 
 function CartPage() {
 
     return(
         
-        <h1> hei </h1>
+        <div className="CartPage">
+            <h1>Cart Page</h1>
+
+        </div>
 
     );
 
