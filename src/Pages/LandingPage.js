@@ -13,15 +13,6 @@ function LandingPage() {
                     <h3>Authentic</h3>
                     <h3>Italian food</h3>
                 </h1>
-<<<<<<< HEAD
-                </header>
-                
-                <ButtonGroup color="w"  variant ="outlined">
-                <Button >Menu</Button>
-                <Button>Order now</Button>
-                </ButtonGroup>
-            
-=======
             </header>
 
 
@@ -31,7 +22,6 @@ function LandingPage() {
 
 
 
->>>>>>> d3d5dbd133f18d4a396985a390675644f3b02a30
         </div>
     )
 };
