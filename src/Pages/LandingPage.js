@@ -13,6 +13,7 @@ function LandingPage() {
                     <h3>Authentic</h3>
                     <h3>Italian food</h3>
                 </h1>
+<<<<<<< HEAD
                 </header>
                 
                 <ButtonGroup color="w"  variant ="outlined">
@@ -20,6 +21,17 @@ function LandingPage() {
                 <Button>Order now</Button>
                 </ButtonGroup>
             
+=======
+            </header>
+
+
+            <button type="orderButtton">Order now</button>
+            <button type="menuButton">Menu</button>
+
+
+
+
+>>>>>>> d3d5dbd133f18d4a396985a390675644f3b02a30
         </div>
     )
 };

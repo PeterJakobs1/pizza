@@ -16,11 +16,10 @@ function App() {
           <div className="content">
           
             <Switch>
-            <div className="background">
               <Route path="/LandingPage" exact>
               <LandingPage />
               </Route>
-              </div>
+              
               <Route path="/CartPage" exact>
               <CartPage />
               </Route>

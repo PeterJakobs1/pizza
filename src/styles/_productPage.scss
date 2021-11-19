@@ -1,5 +1,26 @@
 .ProductPage {
-    h1 {
-        color: yellow;
-    }
+    margin-left: 25%;
+    display: flex;
+    color: black;
+    border: 2px solid brown;
 }
+
+.itemCardContainer {
+    display: flex;
+    border: 2px solid yellow;
+}
+
+.itemCardImage {
+    
+}
+
+.itemCardName {
+    color: brown;
+}
+
+.itemCardPrice {
+
+}
+
+
+
