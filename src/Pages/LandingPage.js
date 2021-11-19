@@ -1,4 +1,6 @@
 import React from 'react';
+import{Button, ButtonGroup} from '@material-ui/core'
+
 
 
 
@@ -12,13 +14,11 @@ function LandingPage() {
                     <h3>Italian food</h3>
                 </h1>
                 </header>
-
                 
-                <button type="orderButtton">Order now</button>
-                <button type="menuButton">Menu</button>
-                
-               
-            
+                <ButtonGroup color="w"  variant ="outlined">
+                <Button >Menu</Button>
+                <Button>Order now</Button>
+                </ButtonGroup>
             
         </div>
     )
