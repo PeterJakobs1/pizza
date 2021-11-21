@@ -5,7 +5,7 @@ export default function Basket(props){
     const itemsPrice = cartItems.reduce((a, c) => a + c.price * c.quantity, 0);
 
     return (
-    <aside id="test" class="block col-1">
+    <aside className="cartContainer">
         <h2>Cart</h2>
         <div >
             {cartItems.length === 0 && <div>Cart is empty</div>}
@@ -16,8 +16,8 @@ export default function Basket(props){
                 <div>{item.name}</div>
                 {/* BUTTONS */}
                 <div>
+                <button onClick={() => onRemoveItem(item)} className="remove">-</button>
                     <button onClick={() => onAddItem(item)} className="add">+</button>
-                    <button onClick={() => onRemoveItem(item)} className="remove">-</button>
                 </div>
                 {/* QUANTITY */}
                 <div>
