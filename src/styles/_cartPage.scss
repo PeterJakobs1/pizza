@@ -14,28 +14,34 @@
 
     #headerLine{
         position: absolute;
-        width: 70%;
+        width: 60%;
         top:7%;
-        right: 4%;
+        right: 8%;
         border: 1px solid rgb(105,105,105);
     }
 
     #headerLine2{
         position: absolute;
-        width: 70%;
-        top: 60%;
-        right: 4%;
+        width: 60%;
+        top: 50%;
+        right: 8%;
+        border: 1px solid rgb(105,105,105);
+    }
+    #headerLine3{
+        position: absolute;
+        width: 60%;
+        top: 90%;
+        right: 8%;
         border: 1px solid rgb(105,105,105);
     }
 
 
     #someThingExtraTitle{
             position: absolute;
-            top: 60%;
+            top: 52%;
             display: block;
             text-align:right;
-            left: 30%;
-
+            left: 35%;
     }
 
     #somethingExtraContent{
@@ -44,22 +50,27 @@
 
     #somethingExtra-container {
         display: grid;
-        grid-template-columns: 120px 120px 120px 120px;
-        grid-gap: 15px;
-        padding: 10px;
-        
-        padding-top: 5%;
-        width: 35%;
-        margin-left: 40%;
-        border: 2px solid black;
+        grid-template-columns: 120px 120px 120px ;
+        grid-gap: 30px;
+        height: 15rem;
+        padding: 1px;
+        padding-top: 1%;
+        width: 40%;
+        margin-left: 10%;
+        margin-top: 40%;
     }
 
     #somethingExtra-container > div {
-        background-color: aqua;
-        text-align: center;
-        padding: 20px 0;
-        font-size: 20px;
-        border: 2px solid black;
+        color: black;
+        border: solid 2px black;
+        display: flex;
+         gap: 10px;
+        gap: 10px 20px;
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+    .extraContainer{
+        height: 10%;
     }
 
 }
