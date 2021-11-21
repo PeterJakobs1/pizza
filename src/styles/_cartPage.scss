@@ -14,17 +14,24 @@
 
     #headerLine{
         position: absolute;
-        width: 70%;
+        width: 60%;
         top:7%;
-        right: 4%;
+        right: 8%;
         border: 1px solid rgb(105,105,105);
     }
 
     #headerLine2{
         position: absolute;
-        width: 70%;
+        width: 60%;
         top: 50%;
-        right: 4%;
+        right: 8%;
+        border: 1px solid rgb(105,105,105);
+    }
+    #headerLine3{
+        position: absolute;
+        width: 60%;
+        top: 90%;
+        right: 8%;
         border: 1px solid rgb(105,105,105);
     }
 
@@ -54,7 +61,8 @@
     }
 
     #somethingExtra-container > div {
-        background-color: black;
+        color: black;
+        border: solid 2px black;
         display: flex;
          gap: 10px;
         gap: 10px 20px;

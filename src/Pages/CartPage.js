@@ -19,6 +19,8 @@ function CartPage() {
 
             <div id="headerLine2">
             </div>
+            <div id="headerLine3">
+            </div>
 
             <div className="extraContainer">
             <h1 id="someThingExtraTitle">something Extra?</h1>
