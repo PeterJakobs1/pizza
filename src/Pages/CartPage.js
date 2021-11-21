@@ -34,12 +34,37 @@ function CartPage() {
             <div className="extraContainer">
                 <h1 id="someThingExtraTitle">something Extra?</h1>
                  <div id="somethingExtra-container">
-                    <div><img src={sauce1} height="50px" width="50px"/></div>
-                    <div><img src={sauce2} height="50px" width="50px"/></div>
-                    <div><img src={sauce3} height="50px" width="50px"/></div>
-                    <div><img src={sauce4} height="50px" width="50px"/></div>
-                    <div><img src={sauce5} height="50px" width="50px"/></div>
-                    <div><img src={sauce6} height="50px" width="50px"/></div>
+
+                    <div className="center-image">
+                        <h5>Sauce</h5>
+                        <img src={sauce1} height="50px" width="50px"/>
+                    </div>
+
+                    <div>
+                        <h5>Sauce</h5>
+                        <img src={sauce2} height="50px" width="50px"/>
+                    </div>
+
+                    <div>
+                        <h5>Sauce</h5>
+                        <img src={sauce3} height="50px" width="50px"/>
+                    </div>
+
+                    <div>
+                        <h5>Sauce</h5>
+                        <img src={sauce4} height="50px" width="50px"/>
+                    </div>
+
+                    <div>
+                        <h5>Sauce</h5>
+                        <img src={sauce5} height="50px" width="50px"/>
+                    </div>
+
+                    <div>
+                        <h5>Sauce</h5>
+                        <img src={sauce6} height="50px" width="50px"/>
+                    </div>
+
                 </div>
             </div>
 

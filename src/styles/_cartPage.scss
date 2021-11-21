@@ -30,7 +30,7 @@
     #headerLine3{
         position: absolute;
         width: 60%;
-        top: 90%;
+        top: 120%;
         right: 8%;
         border: 1px solid rgb(105,105,105);
     }
@@ -50,7 +50,7 @@
 
     #somethingExtra-container {
         display: grid;
-        grid-template-columns: 120px 120px 120px ;
+        grid-template-columns: 130px 130px 130px ;
         grid-gap: 30px;
         height: 15rem;
         padding: 1px;
@@ -63,12 +63,11 @@
     #somethingExtra-container > div {
         color: black;
         border: solid 2px black;
-        display: flex;
+        display: block;
         gap: 10px;
         gap: 10px 20px;
         row-gap: 10px;
         column-gap: 20px;
-        display: flex;
         justify-content: center;
         border-radius: 20px;
         
@@ -77,5 +76,8 @@
         height: 600px;
 
     }
+
+
+   
 
 }
