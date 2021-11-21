@@ -1,8 +1,16 @@
 .productPage {
-    margin-left: 25%;
     display: flex;
     color: black;
-    width: 60%;
+}
+
+.mainClassContainer{
+    width: 70%;
+}
+
+.productContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
 }
 
 .itemCardContainer {
@@ -19,7 +27,7 @@
     border: 1px solid #000000;
     margin: 4px;
     border-radius: 4px;
-    width: 250px;
+    width: 200px;
     padding: 24px;
 }
 
@@ -51,11 +59,63 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 4px;
     margin: 16px;
+    width: 120px;
 }
 
+.filterButton{
+    font-family:'fantasy';
+    background-color: #000000; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 4px;
+    width: 200px;
+    height: 30px;
+}
+
+button.add{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 1.5rem;
+    margin: 1px;
+}
+
+button.remove{
+    background-color: grey;
+    color: black;
+    border: none;
+    width: 1.5rem;
+    margin: 1px;
+}
+
+button.badge{
+    background-color: red;
+    border: none;
+    color: red;
+    width: 1.5rem;
+}
+
+.cartProductContent{
+    display: flex;
+    justify-content: end;
+
+    div{
+        margin: 4px;
+    }
+}
+
+.sum{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 

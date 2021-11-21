@@ -1,9 +1,6 @@
 import React from 'react';
 //import{Button, ButtonGroup} from '@material-ui/core'
 
-
-
-
 function LandingPage() {
     return (
         <div className="LandingPage">

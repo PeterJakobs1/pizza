@@ -1,58 +1,44 @@
+import React, { Component, useState } from 'react';
+import Products from '../Components/Products';
+import Basket from '../Components/Basket';
+import data from '../data';
 
-//import React, { Component } from 'react';
-import React from 'react';
-import Cart from '../Components/Cart';
-import ItemCard from './../Components/ItemCard';
-import { ProductPageItems } from './ProductPageItems';
-import { useState } from 'react'
-
-class ProductPage extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this.getItems();
-    }
-
-    state = {
-        name: "",
-        price: "",
-        filter: "",
-        image: "",
-        itemList: [],
-        
-    }
-
-    getItems = () => {
-        for (var i = 0; i < ProductPageItems.length; i++){
-            this.state.itemList.push(ProductPageItems[i]);
-        } 
-    }
-
-    createItemCard = () => {
-        let list;
-        if (this.state.itemList.length > 0 ){
-            list =
-            <div className="itemCardContainer">
-                {this.state.itemList.map(itemList =>
-                    <ItemCard image={itemList.image} name={itemList.name} price={itemList.price}></ItemCard>
-                    )}
-                
-            </div>
+export default function ProductPage(props){
+    //get products from data
+    const {products} = data;
+    let [cartItems, setCartItems] = useState([]);
+    const onAddItem = (product) => {
+        const exist = cartItems.find(x => x.id === product.id);
+        if (exist) {
+            setCartItems(cartItems.map(x => x.id === product.id ? {...exist, quantity: exist.quantity + 1 } : x
+                )
+            );
+        } else {
+            //First time entry for a item
+            setCartItems([...cartItems, {...product, quantity: 1}]);
         }
+    };
 
-        return list
-    }
+    const onRemoveItem = (product) => {
+        const exist = cartItems.find(x => x.id === product.id);
+        if(exist.quantity === 1){
+            setCartItems(cartItems.filter((x) => x.id !== product.id ));
+        } else {
+            setCartItems(cartItems.map(x => x.id === product.id ? {...exist, quantity: exist.quantity - 1 } : x
+                )
+            );
+        }
+    };
 
-    render = () => {
-        return (
-            <div className="productPage">
-                {this.createItemCard()}
-                <Cart></Cart>
-            </div>
-        )
+    const onCheckout = () => {
+        cartItems = [];
+        alert("Food incoming!")
+    };
 
-    }
+    return (
+        <div className="productPage">
+            <Products onAddItem={onAddItem} products={products}></Products>
+            <Basket onCheckout={onCheckout} onAddItem={onAddItem} onRemoveItem={onRemoveItem} cartItems={cartItems}></Basket>
+        </div>
+    )
 }
-
-export default ProductPage
-
