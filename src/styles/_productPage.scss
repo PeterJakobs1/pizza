@@ -119,27 +119,27 @@ button.badge{
 
 @media only screen and (max-width: 812px) {
   /* For iPhone x: */
-    // .cartContainer {
-    //     position: absolute;
-    //     padding-top: 105px;
-    //     padding-left: 10px;
-    // }
+    .cartContainer {
+        position: absolute;
+        padding-top: 105px;
+        padding-left: 10px;
+    }
 
-    // .productContainer {
-    //     padding-top: 300px;
-    // }
+    .productContainer {
+        padding-top: 300px;
+    }
 
-    // .mainClassContainer {
-    //     padding-left: 10px;
-    // }
+    .mainClassContainer {
+        padding-left: 10px;
+    }
 
-    // .smallScreenButton {
-    //     margin-left: 80px;
-    // }
-    // .cartProductContent {
-    //     font-size: 12px;
-    //     padding-right: 35px;
-    // }
+    .smallScreenButton {
+        margin-left: 80px;
+    }
+    .cartProductContent {
+        font-size: 12px;
+        padding-right: 35px;
+    }
     .productContainer {
         margin-top: 300px;
     }

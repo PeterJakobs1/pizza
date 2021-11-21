@@ -64,13 +64,18 @@
         color: black;
         border: solid 2px black;
         display: flex;
-         gap: 10px;
+        gap: 10px;
         gap: 10px 20px;
         row-gap: 10px;
         column-gap: 20px;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        
     }
     .extraContainer{
-        height: 10%;
+        height: 600px;
+
     }
 
 }
