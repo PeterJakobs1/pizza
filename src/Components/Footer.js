@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../img/logo.png';
+import delivery from '../img/delivery.png';
 import pickUp from '../img/pickUp.png';
 
 function Footer() {
@@ -12,7 +12,7 @@ function Footer() {
          <div className="container">
          <div className="line"></div>
 
-             <img src={logo} className="logo" width="100" height="50" />
+             <img src={delivery} className="delivery" width="100" height="50" />
              <div className="deliverytext">Deliver</div>
              <div className="PickUpText">PickUp</div>             
                  

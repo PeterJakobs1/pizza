@@ -1,8 +1,10 @@
 
 //import React, { Component } from 'react';
 import React from 'react';
+import Cart from '../Components/Cart';
 import ItemCard from './../Components/ItemCard';
 import { ProductPageItems } from './ProductPageItems';
+import { useState } from 'react'
 
 class ProductPage extends React.Component {
 
@@ -16,7 +18,8 @@ class ProductPage extends React.Component {
         price: "",
         filter: "",
         image: "",
-        itemList: []
+        itemList: [],
+        
     }
 
     getItems = () => {
@@ -29,9 +32,9 @@ class ProductPage extends React.Component {
         let list;
         if (this.state.itemList.length > 0 ){
             list =
-            <div>
+            <div className="itemCardContainer">
                 {this.state.itemList.map(itemList =>
-                    <ItemCard name={itemList.name} price={itemList.price}></ItemCard>
+                    <ItemCard image={itemList.image} name={itemList.name} price={itemList.price}></ItemCard>
                     )}
                 
             </div>
@@ -42,8 +45,9 @@ class ProductPage extends React.Component {
 
     render = () => {
         return (
-            <div className="ProductPage">
+            <div className="productPage">
                 {this.createItemCard()}
+                <Cart></Cart>
             </div>
         )
 

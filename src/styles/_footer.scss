@@ -1,16 +1,15 @@
 .main-footer{
 
-    position: relative;
-    color: red;
-    background-color: red;
-    position: relative;
-    margin-bottom:40%;
-    right: 10%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
+    color: red;
+    background-color: white;
+    
 }
 
-
-.logo{
+.delivery{
     position: relative;
     left: 25%;
     top: 1rem;
@@ -35,5 +34,4 @@
     left: 75%;
     bottom: 2.5rem;
     width: 10px;
-
 }

@@ -1,26 +1,61 @@
-.ProductPage {
+.productPage {
     margin-left: 25%;
     display: flex;
     color: black;
-    border: 2px solid brown;
+    width: 60%;
 }
 
 .itemCardContainer {
     display: flex;
-    border: 2px solid yellow;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // height: 600px;
+}
+
+//THE ITEMCARD
+.itemCardContent {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    margin: 4px;
+    border-radius: 4px;
+    width: 250px;
+    padding: 24px;
 }
 
 .itemCardImage {
-    
+    align-self: center;
+    height: 8rem;
+    width: 8rem;
 }
 
 .itemCardName {
-    color: brown;
+    color: black;
+    text-align: center;
+    font-family:'fantasy';
+
 }
 
 .itemCardPrice {
+    text-align: center;
+    font-family:'fantasy';
 
 }
+
+.itemCardButton{
+    font-family:'fantasy';
+    background-color: #000000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 16px;
+}
+
 
 
 
