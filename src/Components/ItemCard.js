@@ -1,27 +1,18 @@
 import React from 'react';
 
-export default class ItemCard extends React.Component {
-
-    constructor(props){
-        super(props);
-    }
-
-    addItem = (name, price) => {
-        alert(name + ' ' + price)
-    }
-
-    render() {
-        return (
-            //TODO STYLE KORT
-            <div className="itemCardContent">
+export default function ItemCard(props) {
+    //get product and onAddItem function from props
+    const { product, onAddItem } = props;
+    return (
+        
+            <div id={product.filter} className="itemCardContent">
                 {/* PICTURE legge til src*/}
-                <img className="itemCardImage" src={this.props.image} alt="itemCardImage"></img>
+                <img className="itemCardImage" src={product.image} alt="itemCardImage"></img>
                 {/* HEADER */}
-                <div className="itemCardName">{this.props.name}</div>
+                <div className="itemCardName">{product.name}</div>
                 {/* PRICE */}
-                <div className="itemCardPrice">{this.props.price}</div>
-                <button className="itemCardButton" onClick={() => this.addItem(this.props.name, this.props.price)}>Add pizza</button>
+                <div className="itemCardPrice">{product.price}</div>
+                <button className="itemCardButton" onClick={() => onAddItem(product)}>Add {product.category}</button>
             </div>
-        )
-    }
+    )
 }
