@@ -13,7 +13,7 @@ const data = {
                 },
                 {
                     id: "2",
-                    name: "Margaritha",
+                    name: "Bahamas",
                     price: 199,
                     filter: "pizzaFilter2",
                     category: "pizza",

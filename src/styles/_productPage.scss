@@ -117,5 +117,35 @@ button.badge{
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 812px) {
+  /* For iPhone x: */
+    .cartContainer {
+        position: absolute;
+        padding-top: 105px;
+        padding-left: 10px;
+    }
+
+    .productContainer {
+        padding-top: 300px;
+    }
+
+    .mainClassContainer {
+        padding-left: 50px;
+    }
+
+    .smallScreenButton {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    /* For tablet: */
+    .cartContainer {
+        
+    }
+}
+  
+  
+  
 
 
