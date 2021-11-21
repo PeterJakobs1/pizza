@@ -37,7 +37,7 @@ const showAll = () => {
     return <main className="mainClassContainer">
         <button className="filterButton" onClick={() => hidePasta()}>Pizza</button>
         <button className="filterButton" onClick={() => hidePizza()}>Pasta</button>
-        <button className="filterButton" onClick={() => showAll()}>Show all</button>
+        <button className="filterButton showAll" onClick={() => showAll()}>Show all</button>
         <div className="productContainer">
             {products.map((product) => (
                 <ItemCard key={product.id} product={product} onAddItem={onAddItem}></ItemCard>

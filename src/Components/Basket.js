@@ -15,7 +15,7 @@ export default function Basket(props){
                 {/* NAME */}
                 <div>{item.name}</div>
                 {/* BUTTONS */}
-                <div>
+                <div className="buttonContainer">
                     <button onClick={() => onRemoveItem(item)} className="remove">-</button>
                     <button onClick={() => onAddItem(item)} className="add">+</button>
                 </div>
