@@ -6,36 +6,37 @@
     background-attachment: fixed;
     background-size: cover;
   
-.landingText{
-        font-size: smaller;
-        padding-top: 170px;
-        padding-left: 130px;
+    .landingText{
+            font-size: smaller;
+            padding-top: 170px;
+            padding-left: 130px;
 
-    
-}
-.LandingText{
-padding-top: 100px;
-padding-left: 140px;
-}
+        
+    }  
+
+    .LandingText{
+        padding-top: 100px;
+        padding-left: 140px;
+    }
 }
 
 .product-button{
-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 .cart-button{
-color: rgb(255, 255, 255);
-box-sizing: border-box;
-border: 1px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 1px;
 }
 
 
 @media screen and (max-width: 768px) {
 /* for iPhone */
 .LandingText{
-padding-top: 40px;
-padding-left: 10px;
-font-size: 10px;
-float: left;
+    padding-top: 40px;
+    padding-left: 10px;
+    font-size: 10px;
+    float: left;
 
 }
 }
