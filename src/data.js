@@ -1,6 +1,10 @@
 //TODO IMPORTERE PIZZA BILDER
-import pepperoniPizza from '../src/img/pizza.png'
-
+import pizzaPepperoni from '../src/img/pizzaPepperoni.png'
+import pizzaHawaii from '../src/img/pizzaHawaii.png'
+import pizzaMargarita from '../src/img/pizzaMargarita.png'
+import bolognese from '../src/img/bolognese.png'
+import carbonara from '../src/img/carbonara.png'
+import diPesce from '../src/img/diPesce.png'
 const data = {
     products: [
         {
@@ -9,7 +13,7 @@ const data = {
                     price: 199,
                     filter: "pizzaFilter1",
                     category: "pizza",
-                    image: pepperoniPizza
+                    image: pizzaPepperoni
                 },
                 {
                     id: "2",
@@ -17,7 +21,7 @@ const data = {
                     price: 199,
                     filter: "pizzaFilter2",
                     category: "pizza",
-                    image: pepperoniPizza
+                    image: pizzaHawaii
                 },
                 {
                     id: "3",
@@ -25,7 +29,7 @@ const data = {
                     price: 249,
                     filter: "pizzaFilter3",
                     category: "pizza",
-                    image: pepperoniPizza
+                    image: pizzaMargarita
                 },
                 {
                     id: "4",
@@ -33,7 +37,7 @@ const data = {
                     price: 109,
                     filter: "pastaFilter1",
                     category: "pasta",
-                    image: ""
+                    image: bolognese
                 }
                 ,
                 {
@@ -42,7 +46,7 @@ const data = {
                     price: 101,
                     filter: "pastaFilter2",
                     category: "pasta",
-                    image: ""
+                    image: carbonara
                 },
                 {
                     id: "6",
@@ -50,7 +54,7 @@ const data = {
                     price: 100,
                     filter: "pastaFilter3",
                     category: "pasta",
-                    image: ""
+                    image: diPesce
                 }
     ]
 };
