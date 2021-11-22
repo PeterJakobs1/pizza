@@ -1,26 +1,44 @@
 
 .LandingPage{
-
-    position: absolute;
-        width:100%;
-        margin-left:20%;
-        margin-top: 10%;
-        background-color: rgba(95, 95, 95, 0);
-        min-height: 100vh;
-        background-image: url("../img/background.jpg");
-      
-
-        
-   
-
+    min-height: 100vh;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
 .landingText{
-    span{
-        background-color: aliceblue;
         font-size: smaller;
-    }
+        padding-top: 170px;
+        padding-left: 130px;
+
+    
+}
+.LandingText{
+padding-top: 100px;
+padding-left: 140px;
+}
+}
+
+.product-button{
+color: rgb(255, 255, 255);
+}
+.cart-button{
+color: rgb(255, 255, 255);
+box-sizing: border-box;
+border: 1px;
+}
+
+
+@media screen and (max-width: 768px) {
+/* for iPhone */
+.LandingText{
+padding-top: 40px;
+padding-left: 10px;
+font-size: 10px;
+float: left;
+
+}
 }
 
 
 
-
-}
