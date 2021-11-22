@@ -105,7 +105,7 @@
 
     .pickUp {
         
-        bottom: 0.5rem; 
+        bottom: 0rem; 
     }
     .deliverytext{
         color: transparent;
@@ -115,8 +115,12 @@
     }
    .delivery{
     left: 5%;
-    top: 5.6rem;
+    top: 6rem;
 
+   }
+   .CartPageTitle #somethingExtra-container{
+    grid-template-columns: 80px 80px;
+    margin-top: 124%;
    }
 
     #somethingExtra-container {
@@ -131,4 +135,6 @@
        padding-top: 22rem;
    }
 }
-}
+
+   
+      
