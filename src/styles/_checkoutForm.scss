@@ -4,6 +4,10 @@ body, input,label {
   font-family:"Abel","Roboto","Avenir Next", "avenir-next", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
 }
 
+.heading {
+  color:black;
+}
+
 p, a, label{
   font-size: 14px;
   text-transform:capitalize;
@@ -82,5 +86,28 @@ p, a, label{
     padding:8px;
     background: $button-color;
   }
-  
 }
+
+@media only screen and (max-width: 768px) {
+    .card-checkout{
+      top: 125%;
+    }
+   
+    .input-group{
+      width: 100px;
+
+    }
+    .CartPageTitle .container{
+      padding-top: 13rem;
+    }
+
+    .CartPageTitle .card-checkout {
+      text-align: -webkit-center;
+      width: 77%;
+      top: 136%;
+      height: 88%;
+      margin-left: 1%;
+  
+    }
+    }
+    

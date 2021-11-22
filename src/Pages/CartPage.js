@@ -37,32 +37,32 @@ function CartPage() {
 
                     <div className="center-image">
                         <h5>Sauce</h5>
-                        <img src={sauce1} height="50px" width="50px"/>
+                        <img src={sauce1} className="sauceImg" height="50px" width="50px"/>
                     </div>
 
                     <div>
                         <h5>Sauce</h5>
-                        <img src={sauce2} height="50px" width="50px"/>
+                        <img src={sauce2} className="sauceImg" height="50px" width="50px"/>
                     </div>
 
                     <div>
                         <h5>Sauce</h5>
-                        <img src={sauce3} height="50px" width="50px"/>
+                        <img src={sauce3} className="sauceImg" height="50px" width="50px"/>
                     </div>
 
                     <div>
                         <h5>Sauce</h5>
-                        <img src={sauce4} height="50px" width="50px"/>
+                        <img src={sauce4} className="sauceImg" height="50px" width="50px"/>
                     </div>
 
                     <div>
                         <h5>Sauce</h5>
-                        <img src={sauce5} height="50px" width="50px"/>
+                        <img src={sauce5} className="sauceImg" height="50px" width="50px"/>
                     </div>
 
                     <div>
                         <h5>Sauce</h5>
-                        <img src={sauce6} height="50px" width="50px"/>
+                        <img src={sauce6} className="sauceImg" height="50px" width="50px"/>
                     </div>
 
                 </div>
