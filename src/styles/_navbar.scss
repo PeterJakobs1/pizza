@@ -16,10 +16,8 @@
             img{
                 width: 70%;
                 margin-bottom: 1rem;
-        
             }
         }
-
         .nav-items{
             
             .nav-item{
@@ -57,8 +55,11 @@
         }
 
         .footer{
-            width:100%;
-            border-top:1px solid white ;
+            margin-top: 1rem;
+            display: flex;
+            width: 100%;
+            height: 20%;
+            padding: 20px;
             p{
                 text-align: center;
                 padding: 1rem;
@@ -66,14 +67,26 @@
                 
                 
             }
+
+        .location-img-container {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
          
+        .location-img-container img{
+            object-fit: cover;
+            width: 70%;
+        }
             
            
         }
-
     }
 }
 
 .active{
   background-color: rgba(24, 24, 24, 0.678);
 }
+

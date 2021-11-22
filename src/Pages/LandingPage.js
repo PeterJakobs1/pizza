@@ -1,5 +1,5 @@
 import React from 'react';
-import{Button, ButtonGroup} from '@material-ui/core'
+import {Link } from "react-router-dom";
 
 function LandingPage() {
     return (
@@ -10,17 +10,12 @@ function LandingPage() {
                     <h3>Authentic</h3>
                     <h3>Italian food</h3>
                 </h1>
-
-                <ButtonGroup>
-                    <Button color="primary">Order</Button>
-                    <Button color="primary">Order</Button>
-                </ButtonGroup>
+                <div className ="Buttons">
+                <Link to="/ProductPage" className="product-button"> Order now </Link> 
+                <Link to="/CartPage" className="cart-button"> Cart </Link> 
+                </div>
 
             </header>
-
-
-
-
         </div>
     )
 };
