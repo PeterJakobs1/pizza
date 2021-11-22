@@ -1,16 +1,18 @@
 import React from 'react'
 import logo from '../img/logo.jpg'
-import {NavLink} from 'react-router-dom';
+import bergen from '../img/bergen.png'
+import oslo from '../img/oslo.png'
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
     return (
         <div className="NavBar">
-            
+
             <nav className="nav">
                 <div className="logo">
-                 <img src ={logo} alt="" />
-                 
-            </div>
+                    <img src={logo} alt="" />
+
+                </div>
                 <ul className="nav-items">
                     <h5 className="nav-item">
                         <NavLink to="/LandingPage" exact activeClassName="active">
@@ -30,12 +32,17 @@ function NavBar() {
                 </ul>
 
                 <footer className="footer">
-                     <p>
-                       @lorem Ipsum
-                     </p>
+                    <div className="location-img-container">
+                        <img src={bergen} alt="bergen" />
+                        <h4>Bergen</h4>
+                    </div>
+                    <div className="location-img-container">
+                        <img src={oslo} alt="oslo" />
+                        <h4>Oslo</h4>
+                    </div>
                 </footer>
             </nav>
-          
+
         </div>
     )
 }
