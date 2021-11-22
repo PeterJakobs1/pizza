@@ -1,10 +1,12 @@
 //TODO IMPORTERE PIZZA BILDER
-import pizzaPepperoni from '../src/img/pizzaPepperoni.png'
-import pizzaHawaii from '../src/img/pizzaHawaii.png'
-import pizzaMargarita from '../src/img/pizzaMargarita.png'
-import bolognese from '../src/img/bolognese.png'
-import carbonara from '../src/img/carbonara.png'
-import diPesce from '../src/img/diPesce.png'
+import pizzaPepperoni from '../src/img/pizza/pizzaPepperoni.png'
+import pizzaHawaii from '../src/img/pizza/pizzaHawaii.png'
+import pizzaMargarita from '../src/img/pizza/pizzaMargarita.png'
+import pizzaKebab from '../src/img/pizza/pizzaKebab.png'
+import pizzaVegan from '../src/img/pizza/pizzaVegan.png'
+import bolognese from '../src/img/pasta/bolognese.png'
+import carbonara from '../src/img/pasta/carbonara.png'
+import diPesce from '../src/img/pasta/diPesce.png'
 const data = {
     products: [
         {
@@ -33,6 +35,22 @@ const data = {
                 },
                 {
                     id: "4",
+                    name: "Kebab",
+                    price: 299,
+                    filter: "pizzaFilter4",
+                    category: "pizza",
+                    image: pizzaKebab
+                },
+                {
+                    id: "5",
+                    name: "Vegan",
+                    price: 150,
+                    filter: "pizzaFilter5",
+                    category: "pizza",
+                    image: pizzaVegan
+                }, 
+                {
+                    id: "6",
                     name: "Bolognese",
                     price: 109,
                     filter: "pastaFilter1",
@@ -41,7 +59,7 @@ const data = {
                 }
                 ,
                 {
-                    id: "5",
+                    id: "7",
                     name: "Carbonara",
                     price: 101,
                     filter: "pastaFilter2",
@@ -49,13 +67,13 @@ const data = {
                     image: carbonara
                 },
                 {
-                    id: "6",
+                    id: "8",
                     name: "di Pesce",
                     price: 100,
                     filter: "pastaFilter3",
                     category: "pasta",
                     image: diPesce
-                }
+                },
     ]
 };
 
