@@ -10,7 +10,6 @@
             font-size: smaller;
             padding-top: 170px;
             padding-left: 130px;
-
         
     }  
 
@@ -25,21 +24,53 @@
 }
 .cart-button{
     color: rgb(255, 255, 255);
-    box-sizing: border-box;
-    border: 1px;
+  
 }
 
 
 @media screen and (max-width: 768px) {
+    
 /* for iPhone */
-.LandingText{
-    padding-top: 40px;
-    padding-left: 10px;
+.LandingPage .LandingText {
+    padding-top: 100px;
+    padding-left: 50px;
     font-size: 10px;
-    float: left;
+    
+}
+.product-button{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.cart-button{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
 
+  
 }
 }
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    /* for iPad */
+    .LandingPage .LandingText {
+        padding-top: 100px;
+        padding-left: 100px;
+        font-size: 20px;
+        
+    }
+    .product-button{
+        color: rgb(255, 255, 255);
+        font-size: larger;
+    }
+    .cart-button{
+        color: rgb(255, 255, 255);
+        font-size: larger;
+    
+      
+    }
+}
+
 
 
 
