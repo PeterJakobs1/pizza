@@ -80,8 +80,58 @@
             object-fit: cover;
             width: 70%;
         }
-            
-           
+
+        .linkContainer {
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            height: 15%;
+            width: 75%; /* Styrer hvor langt unna bildene i flex boxen skal være*/
+            margin-top: 18rem;
+            position: absolute;
+            margin-left: 1rem;
+
+        }
+
+        .linkContainer a{
+            display: flex;
+            justify-content:space-around;
+            align-items: flex-end;
+        }
+
+        .logoImage {
+            height: 2rem;
+            width: 2rem;
+            border: white 1px solid;
+            border-radius: 100%;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .logoImage:hover {
+            transform: scale(110%);
+            transition: 0.5s ease;
+        }
+
+        .twitterLogo:hover {
+            background-color: #00acee;
+            border: #00acee 1px solid;
+        }
+
+        .facebookLogo:hover {
+            background-color: #3B5998;
+            border: #3B5998 1px solid;
+        }
+
+        .instagramLogo:hover {
+            background-color: #F58529;
+            border: #F58529 1px solid;
+        }
+        
+        .linkedInLogo:hover{
+            background-color: #0e76a8;
+            border: #0e76a8 1px solid;
+        }
         }
     }
 }
