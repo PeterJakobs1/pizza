@@ -49,7 +49,7 @@
 /* for iPhone */
 .LandingPage .LandingText {
     padding-top: 100px;
-    padding-left: 50px;
+    padding-left: 79px;
     font-size: 10px;  
 }
 .Buttons{
@@ -88,6 +88,16 @@
       
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1133px) {
+    /* Responsive */
+    .LandingText{
+        margin-left: 120px;
+        font-size: 16px;
+    } 
+}
+
+
 
 
 

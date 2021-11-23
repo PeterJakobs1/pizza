@@ -141,6 +141,7 @@
         margin-top: 40px;
         padding: 20px;
     }
+  
 
     .location-img-container {
         width: 50%;
@@ -149,6 +150,8 @@
         flex-direction:row;
         align-items: center;
         margin-top: 25px;
+        margin-left: 0.8rem;
+        
         
     }
 
@@ -177,9 +180,14 @@
     align-items: center;
     font-size: 1rem;
     text-align: -webkit-center;
+}
 
+.NavBar .nav .footer .logoImage {
+    margin: 5px;
+}
 
-
+.linkContainer {
+    margin-top: 4rem;
 }
 
 .App .sidebar {
@@ -189,7 +197,25 @@
     position: fixed;
 }
 
+
+.linkContainer a{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    z-index: 1;
 }
+
+.NavBar .nav .footer .linkContainer {
+    margin-top: 4rem;
+    display: flex;
+    padding: 1px;
+    flex-direction: column-reverse;
+}
+
+
+}
+
+
 
 @media only screen 
   and (min-device-width: 768px) 
@@ -202,4 +228,62 @@
             font-size: 25px;
         }
     }
-  }
+    .NavBar .nav .footer .linkContainer {
+        margin-top: 4rem;
+        display: flex;
+        padding: 1px;
+        flex-direction: column-reverse;
+        margin-left: 2.3rem;
+    }
+    .logoImage {
+        height: 5rem;
+        width: 5rem;
+
+    .linkContainer {
+        padding-top: 3rem;
+    }
+    .NavBar .nav .footer .logoImage {
+        margin: 5px;
+        height: 4rem;
+        width: 4rem;
+
+    }
+    
+     .logoImage {
+            height: 2rem;
+            width: 2rem;
+            border: white 1px solid;
+            border-radius: 100%;
+            background-color: white;
+            cursor: pointer;
+            margin: 1rem;
+        }
+
+
+        .logoImage:hover {
+            transform: scale(110%);
+            transition: 0.5s ease;
+        }
+
+        .twitterLogo:hover {
+            background-color: #00acee;
+            border: #00acee 1px solid;
+        }
+
+        .facebookLogo:hover {
+            background-color: #3B5998;
+            border: #3B5998 1px solid;
+        }
+
+        .instagramLogo:hover {
+            background-color: #F58529;
+            border: #F58529 1px solid;
+        }
+        
+        .linkedInLogo:hover{
+            background-color: #0e76a8;
+            border: #0e76a8 1px solid;
+        }
+        }
+    }
+  
