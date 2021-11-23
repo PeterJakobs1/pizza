@@ -39,10 +39,13 @@
         width: 50px;
         margin-left: 77%;
         grid-auto-flow:column;
+        justify-content: center;
+        align-items: center;
+        justify-items: stretch;
 
     }
     .box >div{
-        background-color: black;
+    color: black;
     }
 
    
@@ -118,16 +121,16 @@
 
     @media only screen and (max-width: 768px) {
         .CartPageTitle #someThingExtraTitle {
-            top: 47%;
+            top: 56%;
             left: 40%;
         }
         .CartPageTitle #headerLine3{
-            top: 169%;
+            top: 180%;
             right: 4%;
         }
        ;
         .CartPageTitle #headerLine2 {
-            top: 48%;
+            top: 55%;
             right: 4%;
         }
         .CartPageTitle #headerLine {
@@ -140,7 +143,7 @@
 
         .CartPageTitle #somethingExtra-container{
             grid-template-columns: 150px;
-            margin-top: 81%;
+            margin-top: 95%;
             margin-left: 27%;
 
            }
@@ -226,27 +229,6 @@
             top: 36%;
         }
 
-<<<<<<< HEAD
-    }
-
-
-
-    @media only screen and (min-width: 768px) and (max-width: 1133px) {
-        /* Responsive */
-           
-        }
-
-
-    .pickUp {
-        
-        bottom: 0rem; 
-    }
-    .deliverytext{
-        color: transparent;
-    }
-    .PickUpText{
-        color: transparent;
-=======
     
     }
 
@@ -254,7 +236,6 @@
         margin-left: 3%;
         grid-template-columns: 80px 80px;
         margin-top: 132%;
->>>>>>> 5edef2ec9407cceefa6efb24a9cd1026b5282bd2
     }
 
 
