@@ -146,14 +146,30 @@
     and (-webkit-min-device-pixel-ratio: 1) {
 
         .CartPageTitle #headerLine3{
-
             top: 125%;
         }    
-       
 
         .CartPageTitle .container{
             top: 120%;
         }
+
+        .CartPageTitle #somethingExtra-container{
+            grid-template-columns: 110px 110px 110px;
+            margin-top: 55%;
+            margin-left: 18%;
+            
+           }
+
+           .CartPageTitle .PizzaTitle{
+            left: 40%;
+        }
+
+        .CartPageTitle #someThingExtraTitle{
+            top: 40%;
+        }
+
+
+    
     }
 
 
@@ -167,29 +183,18 @@
     .PickUpText{
         color: transparent;
     }
+
    .delivery{
     left: 5%;
     top: 6rem;
 
    }
-   .CartPageTitle #somethingExtra-container{
-    
-    grid-template-columns: 80px;
-    margin-top: 81%;
-    margin-left: 34%;
-   }
-
-    #somethingExtra-container {
-        margin-left: 3%;
-        grid-template-columns: 80px 80px;
-        margin-top: 132%;
-    }
-
-
+   
    .container {
        position: none;
        padding-top: 22rem;
    }
+
 }
 
    
