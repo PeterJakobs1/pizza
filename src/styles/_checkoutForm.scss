@@ -110,20 +110,26 @@ p, a, label{
   
     }
 
-     /* Portrait and Landscape iPad */
-     @media only screen 
-     and (min-device-width: 768px) 
-     and (max-device-width: 1024px) 
-     and (-webkit-min-device-pixel-ratio: 1) {
+  }
 
-      .CartPageTitle .card-checkout{
-        top: 80%;
-        right: 10%;
-        height: 50%;
-      }
-    
+   /* Portrait and Landscape iPad */
+   @media only screen 
+   and (min-device-width: 768px) 
+   and (max-device-width: 1024px) 
+   and (-webkit-min-device-pixel-ratio: 1) {
+
+    .CartPageTitle .card-checkout{
+      right: 10%;
+      height: 50%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1133px) {
+    /* Responsive */
+
+    .CartPageTitle .card-checkout{
+     margin-top: -73%;
 
     }
-
   }
     
