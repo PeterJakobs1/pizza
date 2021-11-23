@@ -34,7 +34,7 @@ function CartPage() {
 
 
             <div className="pizzaContainer">
-                <div className="noobBox">
+                <div>
                 <img src={pizza1} className="pizzaImage" height="60x" width="60px"/>
                 <h2 className="PizzaTitle">Pizza Hawaii</h2>
                     <div className="box">

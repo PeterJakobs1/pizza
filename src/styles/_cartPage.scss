@@ -250,8 +250,17 @@
        position: none;
        padding-top: 22rem;
    }
+   @media only screen and (min-height: 768px) and (max-width: 1368px){
+.CartPageTitle .PizzaTitle{
+    right: 35%;
+}
+.CartPageTitle #headerLine2{
+display: none;
+}
+   
+  
 
 
 
    
-      
+}
