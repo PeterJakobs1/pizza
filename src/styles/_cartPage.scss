@@ -4,6 +4,41 @@
     overflow: scroll;
     background-color: white;
 
+
+    .pizzaContainer {
+
+        display: grid;
+        grid-gap: 75%;
+        margin-top: 5%;
+    
+    }
+
+    .PizzaTitle{
+        color: black;
+        position:absolute;
+        right: 50%;
+    }
+
+    .pizzaImage{
+
+        position: absolute;
+        left: 30%;
+        
+    }
+
+    .box{
+        display: grid;
+        grid-gap: 1px;
+        grid-template-columns: 20px 20px 20px 40px;
+        width: 50px;
+        margin-left: 77%;
+        grid-auto-flow:column;
+
+    }
+    .box >div{
+        background-color: black;
+    }
+
     h1{
     color: black;
     position: absolute;
@@ -57,7 +92,7 @@
         padding-top: 1%;
         width: 40%;
         margin-left: 10%;
-        margin-top: 40%;
+        margin-top: 25%;
         text-align: center;
     }
 
@@ -159,6 +194,12 @@
        padding-top: 22rem;
    }
 }
+
+
+
+
+
+
 
    
       

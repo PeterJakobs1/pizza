@@ -7,6 +7,10 @@ import sauce3 from '../img/SomeThingExtra/sauce-3.png'
 import sauce4 from '../img/SomeThingExtra/sauce-4.png'
 import sauce5 from '../img/SomeThingExtra/sauce-5.png'
 import sauce6 from '../img/SomeThingExtra/sauce-6.png'
+import pizza1 from '../img/pizza/pizzaHawaii.png'
+import pizza2 from '../img/pizza/pizzaKebab.png'
+import pizza3 from '../img/pizza/pizzaVegan.png'
+
 
 
 
@@ -19,10 +23,46 @@ function CartPage() {
         <div className="paymentInfo">
         <div className="Credit card"> Credit Card</div>
         <div className="Paypal"> Paypal</div>
-
         </div>
 
+
             <div id="headerLine">
+            </div>
+
+
+            <div className="pizzaContainer">
+                <div>
+                <img src={pizza1} className="pizzaImage" height="60x" width="60px"/>
+                <h2 className="PizzaTitle">Pizza Hawaii</h2>
+                    <div className="box">
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                        <div>4</div>
+                    </div>
+                </div>
+
+                <div>
+                <img src={pizza2} className="pizzaImage" height="50px" width="60px"/>
+                <h2 className="PizzaTitle">Pizza Hawaii</h2>
+                    <div className="box">
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                        <div>4</div>
+                    </div>
+                </div>
+
+                <div>
+                <img src={pizza3} className="pizzaImage" height="50px" width="60px"/>
+                <h2 className="PizzaTitle">Pizza Hawaii</h2>
+                    <div className="box">
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                        <div>4</div>
+                    </div>
+                </div>
             </div>
 
             <div id="headerLine2">
