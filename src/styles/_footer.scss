@@ -1,47 +1,84 @@
-.main-footer{
+.main-footer {
     position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
 }
 
-.delivery{
+.delivery {
     position: relative;
     left: 25%;
-    top: 4.6rem;
+    top: 12rem;
 }
-.pickUp{
+
+.pickUp {
     position: relative;
-    left:60%;
-    bottom: 1rem;
+    left: 60%;
+    bottom: 12rem;
 }
-.deliverytext{
+
+.deliverytext {
     position: relative;
-    font-size:large;
+    font-size: large;
     color: black;
     left: 40%;
-    bottom: -2.2rem;
+    bottom: -9.2rem;
     width: 10px;
 }
-.PickUpText{
+
+.PickUpText {
     position: relative;
-    font-size:large;
+    font-size: large;
     color: black;
-    left: 70%;
-    bottom: -1rem;
+    left: 77%;
+    bottom: -8rem;
     width: 10px;
 }
 
-    /* Portrait and Landscape iPad */
-    @media only screen 
-    and (min-device-width: 768px) 
-    and (max-device-width: 1024px) 
-    and (-webkit-min-device-pixel-ratio: 1) {
+/* Portrait and Landscape iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
 
-       .delivery{
-        margin-left: 20%; 
-       }
+    .delivery {
+        display: none;
+
+    }
+
+    .pickUp {
+
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1368px) {
+    .delivery {
+        position: relative;
+        left: 60%;
+        top: 12rem;
+    }
+
+    .pickUp {
+        position: relative;
+        left: 70%;
+        bottom: 12rem;
+    }
+
+    .deliverytext {
+        position: relative;
+        font-size: large;
+        color: black;
+        left: 50%;
+        bottom: -9.2rem;
+        width: 10px;
+    }
+
+    .PickUpText {
+        position: relative;
+        font-size: large;
+        color: black;
+        left: 85%;
+        bottom: -8rem;
+        width: 10px;
     }
 
 
-
+}
