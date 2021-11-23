@@ -114,6 +114,7 @@
     }
 
     }  
+     /* Portrait and Landscape iPhone */
 
     @media only screen and (max-width: 768px) {
     #CartPageTitle {
@@ -137,6 +138,21 @@
         width: 20%;
         left: 28%;
     }
+    .pickUp {
+        
+        bottom: 0rem; 
+    }
+    .deliverytext{
+        color: transparent;
+    }
+    .PickUpText{
+        color: transparent;
+    }
+   .delivery{
+    left: 5%;
+    top: 6rem;
+
+   }
 
 
     /* Portrait and Landscape iPad */
@@ -156,22 +172,6 @@
         }
     }
 
-
-    .pickUp {
-        
-        bottom: 0rem; 
-    }
-    .deliverytext{
-        color: transparent;
-    }
-    .PickUpText{
-        color: transparent;
-    }
-   .delivery{
-    left: 5%;
-    top: 6rem;
-
-   }
    .CartPageTitle #somethingExtra-container{
     
     grid-template-columns: 80px;
