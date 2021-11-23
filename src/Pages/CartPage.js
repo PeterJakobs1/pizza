@@ -10,8 +10,8 @@ import sauce6 from '../img/SomeThingExtra/sauce-6.png'
 import pizza1 from '../img/pizza/pizzaHawaii.png'
 import pizza2 from '../img/pizza/pizzaKebab.png'
 import pizza3 from '../img/pizza/pizzaVegan.png'
-import triangle from '../img/SomeThingExtra/triangle.png'
-import triangletop from '../img/SomeThingExtra/triangle top.png'
+import triangle from '../img/SomeThingExtra/black triangle.png'
+import triangletop from '../img/SomeThingExtra/blacktriangle.png'
 
 
 
@@ -38,7 +38,7 @@ function CartPage() {
                 <img src={pizza1} className="pizzaImage" height="60x" width="60px"/>
                 <h2 className="PizzaTitle">Pizza Hawaii</h2>
                     <div className="box">
-                    <img src={triangletop}height="30x" width=""/>
+                    <img src={triangletop}height="20x" width=""/>
                         <div>1</div>
                         <img src={triangle}height="20x" width=""/>
                         <div>199kr</div>
@@ -49,7 +49,7 @@ function CartPage() {
                 <img src={pizza2} className="pizzaImage" height="50px" width="60px"/>
                 <h2 className="PizzaTitle">Pizza Hawaii</h2>
                     <div className="box">
-                    <img src={triangletop}height="30x" width=""/>
+                    <img src={triangletop}height="20x" width="30"/>
                         <div>2</div>
                         <img src={triangle}height="20x" width=""/>
                         <div>200kr</div>
@@ -60,7 +60,7 @@ function CartPage() {
                 <img src={pizza3} className="pizzaImage" height="50px" width="60px"/>
                 <h2 className="PizzaTitle">Pizza Hawaii</h2>
                     <div className="box">
-                    <img src={triangletop}height="30x" width=""/>
+                    <img src={triangletop}height="20x" width=""/>
                         <div>3</div>
                         <img src={triangle}height="20x" width=""/>
                         <div>150kr</div>
