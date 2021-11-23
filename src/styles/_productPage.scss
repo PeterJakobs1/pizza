@@ -2,25 +2,21 @@
     display: flex;
     color: black;
 }
-
 .mainClassContainer{
     width: 70%;
 }
-
 .productContainer{
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
     padding-bottom: 100%;
 }
-
 .itemCardContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     // height: 600px;
 }
-
 //THE ITEMCARD
 .itemCardContent {
     display: flex;
@@ -31,26 +27,20 @@
     width: 200px;
     padding: 24px;
 }
-
 .itemCardImage {
     align-self: center;
     height: 8rem;
     width: 8rem;
 }
-
 .itemCardName {
     color: black;
     text-align: center;
     font-family:'fantasy';
-
 }
-
 .itemCardPrice {
     text-align: center;
     font-family:'fantasy';
-
 }
-
 .itemCardButton{
     font-family:'fantasy';
     background-color: #000000; 
@@ -66,13 +56,11 @@
     width: 120px;
     cursor: pointer;
 }
-
 .itemCardButton:hover {
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
         transform: scale(1.1);
 }
-
 .filterButton{
     font-family:'fantasy';
     background-color: #000000; 
@@ -88,7 +76,6 @@
     height: 30px;
     cursor: pointer;
 }
-
 button.add{
     background-color: black;
     color: white;
@@ -96,7 +83,6 @@ button.add{
     width: 1.5rem;
     margin: 1px;
 }
-
 button.remove{
     background-color: white;
     color: black;
@@ -104,14 +90,12 @@ button.remove{
     width: 1.5rem;
     margin: 1px;
 }
-
 button.badge{
     background-color: red;
     border: none;
     color: red;
     width: 1.5rem;
 }
-
 .cartProductContent{
     display: flex;
     justify-content: end;
@@ -120,23 +104,19 @@ button.badge{
         margin: 4px;
     }
 }
-
 .sum{
     display: flex;
     justify-content: space-between;
 }
-
 @media only screen and (max-width: 768px) {
   /* For iPhone x: */
     .productPage {
         justify-content: center;
         text-align: center;
     }
-
     .productContainer {
         margin-top: 280px;
     }
-
     .cartContainer {
         position: absolute;
         margin-top: 110px;
@@ -147,7 +127,6 @@ button.badge{
         font-size: 13px;
     }
 }
-
 /* Portrait and Landscape iPad */
 @media only screen 
   and (min-device-width: 768px) 
@@ -158,14 +137,12 @@ button.badge{
         justify-content: center;
         text-align: center;
     }
-
     .cartContainer {
         position: absolute;
         margin-top: 80px;
         font-size: 17px;
     }   
 }
-
 @media only screen and (min-width: 768px) and (max-width: 1133px) {
 /* Responsive */
     .productContainer {
