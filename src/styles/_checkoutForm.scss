@@ -87,10 +87,10 @@ p, a, label{
     background: $button-color;
   }
 }
-
+ /* Portrait and Landscape iPhone */
 @media only screen and (max-width: 768px) {
     .card-checkout{
-      top: 128%;
+      top: 120%;
     }
    
     .input-group{
@@ -103,27 +103,37 @@ p, a, label{
 
     .CartPageTitle .card-checkout {
       text-align: -webkit-center;
-      width: 77%;
-      top: 127%;
-      height: 88%;
-      margin-left: 1%;
+      margin-top: 108%;
+      height: 87%;
+      margin-left: 11%;
   
     }
-
-     /* Portrait and Landscape iPad */
-     @media only screen 
-     and (min-device-width: 768px) 
-     and (max-device-width: 1024px) 
-     and (-webkit-min-device-pixel-ratio: 1) {
-
-      .CartPageTitle .card-checkout{
-        top: 80%;
-        right: 10%;
-        height: 50%;
-      }
-    
-
-    }
+  }
 
   }
+
+   /* Portrait and Landscape iPad */
+   @media only screen 
+   and (min-device-width: 768px) 
+   and (max-device-width: 1024px) 
+   and (-webkit-min-device-pixel-ratio: 1) {
+
+    .CartPageTitle .card-checkout{
+      right: 10%;
+      height: 50%;
+    }
+  }
+
+<<<<<<< HEAD
+  @media only screen and (min-width: 768px) and (max-width: 1133px) {
+    /* Responsive */
+
+    .CartPageTitle .card-checkout{
+     margin-top: -73%;
+
+    }
+  }
+=======
+
+>>>>>>> 5edef2ec9407cceefa6efb24a9cd1026b5282bd2
     
