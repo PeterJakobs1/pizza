@@ -45,7 +45,6 @@
                         overflow-x: hidden;
                         transition: transform .4s, .2s width .5s cubic-bezier(1,-0.15,.5,1.45);
                     }
-
                     &:hover::before{
                         width: 100%;
                         transform: scale(1);
@@ -53,7 +52,6 @@
                 }
             }
         }
-
         .footer{
             margin-top: 1rem;
             display: flex;
@@ -63,9 +61,7 @@
             p{
                 text-align: center;
                 padding: 1rem;
-                font-size: medium;
-                
-                
+                font-size: small;
             }
 
         .location-img-container {
@@ -139,4 +135,71 @@
 .active{
   background-color: rgba(24, 24, 24, 0.678);
 }
+@media screen and (max-width: 768px) {
+    .footer{
+        text-align: -webkit-center;
+        margin-top: 40px;
+        padding: 20px;
+    }
 
+    .location-img-container {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction:row;
+        align-items: center;
+        margin-top: 25px;
+        
+    }
+
+    .NavBar .nav .footer {
+        display: table-row;
+    }
+    .nav-items{   
+        .nav-item{
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+     
+    
+.NavBar .nav .footer .location-img-container img {
+    object-fit: cover;
+    width: 110%;
+    text-align: -webkit-center;
+    
+}
+.NavBar .nav .footer .location-img-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    text-align: -webkit-center;
+
+
+
+}
+
+.App .sidebar {
+    width: 30%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+}
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .nav-items{
+            
+        .nav-item{
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+  }

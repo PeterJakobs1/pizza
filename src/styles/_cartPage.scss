@@ -11,10 +11,45 @@
     top: 2%;
     font-size: 30px;
     }
+    .pizzaContainer {
+
+        display: grid;
+        grid-gap: 75%;
+        margin-top: 5%;
+    
+    }
+
+    .PizzaTitle{
+        color: black;
+        position:absolute;
+        right: 50%;
+    }
+
+    .pizzaImage{
+
+        position: absolute;
+        left: 30%;
+        
+    }
+
+    .box{
+        display: grid;
+        grid-gap: 1px;
+        grid-template-columns: 20px 20px 20px 40px;
+        width: 50px;
+        margin-left: 77%;
+        grid-auto-flow:column;
+
+    }
+    .box >div{
+        background-color: black;
+    }
+
+   
 
     #headerLine{
         position: absolute;
-        width: 60%;
+        width: 65%;
         top:7%;
         right: 8%;
         border: 1px solid rgb(105,105,105);
@@ -22,15 +57,15 @@
 
     #headerLine2{
         position: absolute;
-        width: 60%;
-        top: 50%;
+        width: 65%;
+        top: 40%;
         right: 8%;
         border: 1px solid rgb(105,105,105);
     }
     #headerLine3{
         position: absolute;
-        width: 60%;
-        top: 120%;
+        width: 65%;
+        top: 110%;
         right: 8%;
         border: 1px solid rgb(105,105,105);
     }
@@ -57,7 +92,7 @@
         padding-top: 1%;
         width: 40%;
         margin-left: 10%;
-        margin-top: 40%;
+        margin-top: 30%;
         text-align: center;
     }
 
@@ -75,7 +110,7 @@
     }
     .extraContainer{
         text-align: center;
-        height: 600px;
+        height: 500px;
     }
 
     }  
@@ -110,20 +145,31 @@
     and (max-device-width: 1024px) 
     and (-webkit-min-device-pixel-ratio: 1) {
 
-        .CartPageTitle #somethingExtra-container{
-
-        margin-top: 90%;
-
-        }
-
         .CartPageTitle #headerLine3{
-
-            top: 85%;
+            top: 125%;
         }    
 
         .CartPageTitle .container{
             top: 120%;
         }
+
+        .CartPageTitle #somethingExtra-container{
+            grid-template-columns: 110px 110px 110px;
+            margin-top: 55%;
+            margin-left: 18%;
+            
+           }
+
+           .CartPageTitle .PizzaTitle{
+            left: 40%;
+        }
+
+        .CartPageTitle #someThingExtraTitle{
+            top: 40%;
+        }
+
+
+    
     }
 
 
@@ -137,27 +183,18 @@
     .PickUpText{
         color: transparent;
     }
+
    .delivery{
     left: 5%;
     top: 6rem;
 
    }
-   .CartPageTitle #somethingExtra-container{
-    grid-template-columns: 80px 80px;
-    margin-top: 124%;
-   }
-
-    #somethingExtra-container {
-        margin-left: 3%;
-        grid-template-columns: 80px 80px;
-        margin-top: 132%;
-    }
-
-
+   
    .container {
        position: none;
        padding-top: 22rem;
    }
+
 }
 
    

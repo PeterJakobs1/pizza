@@ -36,11 +36,11 @@ function NavBar() {
                 <footer className="footer">
                     <div className="location-img-container">
                         <img src={bergen} alt="bergen" />
-                        <h4>Bergen</h4>
+                        <h7>Bergen</h7>
                     </div>
                     <div className="location-img-container">
                         <img src={oslo} alt="oslo" />
-                        <h4>Oslo</h4>
+                        <h7>Oslo</h7>
                     </div>
                     <div className="linkContainer">
                         <img className="logoImage twitterLogo" src={twitterLogo} alt="" />
