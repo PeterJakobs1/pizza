@@ -120,7 +120,7 @@ p, a, label{
 
     .CartPageTitle .card-checkout{
       right: 10%;
-      margin-top: -60%;
+      margin-top: -40%;
       width: 50%;
       height: 50%
     }
@@ -129,16 +129,11 @@ p, a, label{
     
   @media only screen and (min-width: 768px) and (max-width: 1368px){
     .CartPageTitle .card-checkout{
-      top:124%;
+      top:100%;
       margin-left: 7%;
     } 
   }
-  @media only screen and (min-width: 539px) and (max-width: 1025px){
-    .CartPageTitle .card-checkout {
-      top: 180%;
-      left: 26%;
-      height: 70%
-    }
+  
     
-   }
+  
     
