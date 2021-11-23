@@ -185,9 +185,6 @@
     and (-webkit-min-device-pixel-ratio: 1) {
         
 
-        .CartPageTitle .pizzaContainer{
-        }
-
         .CartPageTitle.box{
             top: 10%;
         }
@@ -208,7 +205,7 @@
 
 
         .CartPageTitle .container{
-            top: 120%;
+            margin-top: 40%;
         }
 
         .CartPageTitle #somethingExtra-container{
@@ -226,35 +223,20 @@
             top: 36%;
         }
 
-<<<<<<< HEAD
     }
-
-
-
-    @media only screen and (min-width: 768px) and (max-width: 1133px) {
-        /* Responsive */
-           
-        }
 
 
     .pickUp {
         
-        bottom: 0rem; 
+        bottom: 10.5rem; 
+        margin-left: 8%;
+
     }
     .deliverytext{
         color: transparent;
     }
     .PickUpText{
         color: transparent;
-=======
-    
-    }
-
-    #somethingExtra-container {
-        margin-left: 3%;
-        grid-template-columns: 80px 80px;
-        margin-top: 132%;
->>>>>>> 5edef2ec9407cceefa6efb24a9cd1026b5282bd2
     }
 
 
