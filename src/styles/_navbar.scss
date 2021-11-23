@@ -105,11 +105,10 @@
     .NavBar .nav .footer {
         display: table-row;
     }
-    .nav-items{
-            
+    .nav-items{   
         .nav-item{
             text-align: center;
-            font-size: 12px;
+            font-size: 15px;
         }
     }
      
@@ -128,6 +127,16 @@
     align-items: center;
     font-size: 1rem;
     text-align: -webkit-center;
+
+
+
+}
+
+.App .sidebar {
+    width: 30%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
 }
 
 }
