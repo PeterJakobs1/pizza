@@ -38,9 +38,9 @@ function CartPage() {
                 <img src={pizza1} className="pizzaImage" height="60x" width="60px"/>
                 <h2 className="PizzaTitle">Pizza Hawaii</h2>
                     <div className="box">
-                    <img src={triangletop}height="20x" width=""/>
-                        <div>1</div>
-                        <img src={triangle}height="20x" width=""/>
+                    <div>-</div>
+                    <div>1</div>
+                    <div>+</div>
                         <div>199kr</div>
                     </div>
                 </div>
@@ -49,9 +49,9 @@ function CartPage() {
                 <img src={pizza2} className="pizzaImage" height="50px" width="60px"/>
                 <h2 className="PizzaTitle">Pizza Hawaii</h2>
                     <div className="box">
-                    <img src={triangletop}height="20x" width="30"/>
+                    <div>-</div>
                         <div>2</div>
-                        <img src={triangle}height="20x" width=""/>
+                        <div>+</div>
                         <div>200kr</div>
                     </div>
                 </div>
@@ -60,9 +60,9 @@ function CartPage() {
                 <img src={pizza3} className="pizzaImage" height="50px" width="60px"/>
                 <h2 className="PizzaTitle">Pizza Hawaii</h2>
                     <div className="box">
-                    <img src={triangletop}height="20x" width=""/>
+                    <div>-</div>
                         <div>3</div>
-                        <img src={triangle}height="20x" width=""/>
+                        <div>+</div>
                         <div>150kr</div>
                     </div>
                 </div>
