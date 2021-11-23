@@ -1,7 +1,6 @@
 .CartPageTitle {
-
+    overflow: scroll;
     background-color: white;
-
     h1 {
         color: black;
         position: absolute;
@@ -9,28 +8,20 @@
         top: 2%;
         font-size: 30px;
     }
-
     .pizzaContainer {
-
         display: grid;
         grid-gap: 75%;
         margin-top: 5%;
-
     }
-
     .PizzaTitle {
         color: black;
         position: absolute;
         right: 50%;
     }
-
     .pizzaImage {
-
         position: absolute;
         left: 30%;
-
     }
-
     .box {
         display: grid;
         grid-gap: 1px;
@@ -41,15 +32,10 @@
         justify-content: center;
         align-items: center;
         justify-items: stretch;
-
     }
-
     .box>div {
         color: black;
     }
-
-
-
     #headerLine {
         position: absolute;
         width: 65%;
@@ -57,7 +43,6 @@
         right: 8%;
         border: 1px solid rgb(105, 105, 105);
     }
-
     #headerLine2 {
         position: absolute;
         width: 65%;
@@ -65,7 +50,6 @@
         right: 8%;
         border: 1px solid rgb(105, 105, 105);
     }
-
     #headerLine3 {
         position: absolute;
         width: 65%;
@@ -73,8 +57,6 @@
         right: 8%;
         border: 1px solid rgb(105, 105, 105);
     }
-
-
     #someThingExtraTitle {
         position: absolute;
         top: 52%;
@@ -82,11 +64,9 @@
         text-align: right;
         left: 35%;
     }
-
     #somethingExtraContent {
         margin-top: 40%;
     }
-
     #somethingExtra-container {
         display: grid;
         grid-template-columns: 130px 130px 130px;
@@ -99,7 +79,6 @@
         margin-top: 30%;
         text-align: center;
     }
-
     #somethingExtra-container>div {
         color: black;
         border: solid 2px black;
@@ -110,14 +89,11 @@
         column-gap: 20px;
         justify-content: center;
         border-radius: 20px;
-
     }
-
     .extraContainer {
         text-align: center;
         height: 5%;
     }
-
 }
 
 /* Portrait and Landscape iPhone */
@@ -132,57 +108,42 @@
         top: 180%;
         right: 4%;
     }
-
-    ;
-
     .CartPageTitle #headerLine2 {
         top: 50%;
         right: 4%;
     }
-
     .CartPageTitle #headerLine {
         right: 4%;
     }
-
     .CartPageTitle .pizzaImage {
         width: 75px;
     }
-
-
     .CartPageTitle #somethingExtra-container {
         grid-template-columns: 150px;
         margin-top: 95%;
         margin-left: 27%;
-
     }
-
     .CartPageTitle .PizzaTitle {
         display: none;
     }
-
     .CartPageTitle .box {
         margin-left: 53%;
     }
-
     #CartPageTitle {
         left: 45%
     }
-
     #someThingExtraTitle {
         width: 20%;
         left: 28%;
     }
-
     .pickUp {
         bottom: 10.5rem;
         margin-left: 8%;
        
     }
-
     .deliverytext {
         color: transparent;
     }
-
     .PickUpText {
         color: transparent;
     }
@@ -196,49 +157,34 @@
         
     }
 }
-
-
-
-
 /* Portrait and Landscape iPad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-
 
     .CartPageTitle.box {
         top: 10%;
     }
-
     .CartPageTitle #headerLine3 {
         top: 125%;
-
         width: 60%;
     }
-
     .CartPageTitle #headerLine {
         width: 60%;
     }
-
     .CartPageTitle #headerLine2 {
         width: 60%;
         top: 35%;
     }
-
-
     .CartPageTitle .container {
         margin-top: 40%;
     }
-
     .CartPageTitle #somethingExtra-container {
         grid-template-columns: 110px 110px 110px;
         margin-top: 50%;
         margin-left: 18%;
-
     }
-
     .CartPageTitle .PizzaTitle {
         left: 40%;
     }
-
     .CartPageTitle #someThingExtraTitle {
         top: 36%;
     }.delivery {
@@ -247,39 +193,26 @@
 
 
 }
-
 #somethingExtra-container {
     margin-left: 3%;
     grid-template-columns: 80px 80px;
     margin-top: 132%;
 }
-
-
 .pickUp {
-
     bottom: -6rem;
     margin-left: 8%;
-
 }
-
-
 .container {
     position: none;
     padding-top: 22rem;
 }
-
 @media only screen and (min-width: 768px) and (max-width: 1368px) {
     .CartPageTitle .PizzaTitle {
         right: 35%;
     }
-
     .CartPageTitle #headerLine3 {
         display: none;
     }
-
-
-
-
 
 }
 }
