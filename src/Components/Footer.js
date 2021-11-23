@@ -12,11 +12,11 @@ function Footer() {
          <div className="container">
          <div className="line"></div>
 
-             <img src={delivery} className="delivery" width="100" height="50" />
+             <img src={delivery} className="delivery" width="100" height="50" alt="deliveryimg" />
              <div className="deliverytext">Deliver</div>
              <div className="PickUpText">PickUp</div>             
                  
-             <img src={pickUp}  className="pickUp" width="50" height="50" />
+             <img src={pickUp}  className="pickUp" width="50" height="50" alt="pickupimg" />
             
          </div>
         
