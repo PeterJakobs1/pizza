@@ -162,14 +162,30 @@
     and (-webkit-min-device-pixel-ratio: 1) {
 
         .CartPageTitle #headerLine3{
-
             top: 125%;
         }    
-       
 
         .CartPageTitle .container{
             top: 120%;
         }
+
+        .CartPageTitle #somethingExtra-container{
+            grid-template-columns: 110px 110px 110px;
+            margin-top: 55%;
+            margin-left: 18%;
+            
+           }
+
+           .CartPageTitle .PizzaTitle{
+            left: 40%;
+        }
+
+        .CartPageTitle #someThingExtraTitle{
+            top: 40%;
+        }
+
+
+    
     }
 
    .CartPageTitle #somethingExtra-container{
@@ -190,6 +206,7 @@
        position: none;
        padding-top: 22rem;
    }
+
 }
 
    
