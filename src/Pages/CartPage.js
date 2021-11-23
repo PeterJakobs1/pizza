@@ -10,8 +10,7 @@ import sauce6 from '../img/SomeThingExtra/sauce-6.png'
 import pizza1 from '../img/pizza/pizzaHawaii.png'
 import pizza2 from '../img/pizza/pizzaKebab.png'
 import pizza3 from '../img/pizza/pizzaVegan.png'
-import triangle from '../img/SomeThingExtra/black triangle.png'
-import triangletop from '../img/SomeThingExtra/blacktriangle.png'
+
 
 
 
