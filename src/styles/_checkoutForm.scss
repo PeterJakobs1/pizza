@@ -90,7 +90,7 @@ p, a, label{
  /* Portrait and Landscape iPhone */
 @media only screen and (max-width: 768px) {
     .card-checkout{
-      top: 128%;
+      top: 120%;
     }
    
     .input-group{
@@ -103,10 +103,9 @@ p, a, label{
 
     .CartPageTitle .card-checkout {
       text-align: -webkit-center;
-      width: 77%;
-      top: 127%;
-      height: 88%;
-      margin-left: 1%;
+      margin-top: 108%;
+      height: 87%;
+      margin-left: 11%;
   
     }
   }

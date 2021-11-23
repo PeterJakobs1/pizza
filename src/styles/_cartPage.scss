@@ -117,30 +117,51 @@
      /* Portrait and Landscape iPhone */
 
     @media only screen and (max-width: 768px) {
+        .CartPageTitle #someThingExtraTitle {
+            top: 47%;
+            left: 40%;
+        }
+        .CartPageTitle #headerLine3{
+            top: 169%;
+            right: 4%;
+        }
+       ;
+        .CartPageTitle #headerLine2 {
+            top: 48%;
+            right: 4%;
+        }
+        .CartPageTitle #headerLine {
+            right: 4%;
+        }
+        .CartPageTitle .pizzaImage {
+            width: 75px;
+        }
+
+
+        .CartPageTitle #somethingExtra-container{
+            grid-template-columns: 150px;
+            margin-top: 81%;
+            margin-left: 27%;
+
+           }
+           .CartPageTitle .PizzaTitle {
+            display: none;
+        }
+        .CartPageTitle .box {
+            margin-left: 53%;
+        }
     #CartPageTitle {
         left: 45%
     
     }
-    #headerLine2 {
-        right: 18%;
-        
-    }
-    #headerLine3 {
-        top: 122%;
-        right: 18%;
-        
-    }
-    #headerLine {
-        right: 18%;
-        
-    }
+   
     #someThingExtraTitle {
         width: 20%;
         left: 28%;
     }
-    .pickUp {
-        
-        bottom: 0rem; 
+    .pickUp { 
+        bottom: 10.5rem;
+        margin-left: 8%;
     }
     .deliverytext{
         color: transparent;
@@ -149,10 +170,12 @@
         color: transparent;
     }
    .delivery{
-    left: 5%;
-    top: 6rem;
-
+    left: 16%;
+    top: -4rem;
    }
+}
+
+  
 
 
     /* Portrait and Landscape iPad */
@@ -160,6 +183,7 @@
     and (min-device-width: 768px) 
     and (max-device-width: 1024px) 
     and (-webkit-min-device-pixel-ratio: 1) {
+        
 
         .CartPageTitle #headerLine3{
             top: 125%;
@@ -184,16 +208,8 @@
             top: 40%;
         }
 
-
     
     }
-
-   .CartPageTitle #somethingExtra-container{
-    
-    grid-template-columns: 80px;
-    margin-top: 81%;
-    margin-left: 34%;
-   }
 
     #somethingExtra-container {
         margin-left: 3%;
@@ -207,7 +223,7 @@
        padding-top: 22rem;
    }
 
-}
+
 
    
       
