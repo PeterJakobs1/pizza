@@ -13,9 +13,13 @@ function App() {
         <NavBar />
       </div>
       <div className="main-content">
-          <div className="content">
+          <div className="content"></div>
           
             <Switch>
+              <Route path="/" exact>
+              <LandingPage />
+              </Route>
+
               <Route path="/LandingPage" exact>
               <LandingPage />
               </Route>
@@ -29,7 +33,7 @@ function App() {
               </Route>
             </Switch>
           
-          </div>
+         
       </div>
 
     </div>
