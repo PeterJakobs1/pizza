@@ -176,7 +176,7 @@
     .pickUp {
         bottom: 10.5rem;
         margin-left: 8%;
-        display: none;
+       
     }
 
     .deliverytext {
@@ -187,10 +187,13 @@
         color: transparent;
     }
 
+    .container {
+        margin-top: 47rem;
+    }
+
     .delivery {
         left: 16%;
-        top: -4rem;
-        display: none;
+        
     }
 }
 
@@ -238,7 +241,9 @@
 
     .CartPageTitle #someThingExtraTitle {
         top: 36%;
-    }
+    }.delivery {
+        margin-top: 12%;
+        left: 29%;
 
 
 }
@@ -276,5 +281,5 @@
 
 
 
-
+}
 }

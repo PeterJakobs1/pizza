@@ -37,16 +37,17 @@
 
 /* Portrait and Landscape iPad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-
-    .delivery {
-        display: none;
-
-    }
-
-    .pickUp {
-
-        display: none;
-    }
+    .CartPageTitle .container{
+    padding-top:20rem;
+}
+.delivery {
+    left: 33%;
+}
+.pickUp {
+   bottom: -6rem;
+   margin-left: -2%;
+}
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1368px) {
