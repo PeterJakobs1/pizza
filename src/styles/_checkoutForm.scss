@@ -87,10 +87,10 @@ p, a, label{
     background: $button-color;
   }
 }
-
+ /* Portrait and Landscape iPhone */
 @media only screen and (max-width: 768px) {
     .card-checkout{
-      top: 128%;
+      top: 120%;
     }
    
     .input-group{
@@ -103,12 +103,12 @@ p, a, label{
 
     .CartPageTitle .card-checkout {
       text-align: -webkit-center;
-      width: 77%;
-      top: 127%;
-      height: 88%;
-      margin-left: 1%;
+      margin-top: 108%;
+      height: 87%;
+      margin-left: 11%;
   
     }
+  }
 
   }
 
@@ -124,6 +124,7 @@ p, a, label{
     }
   }
 
+<<<<<<< HEAD
   @media only screen and (min-width: 768px) and (max-width: 1133px) {
     /* Responsive */
 
@@ -132,4 +133,7 @@ p, a, label{
 
     }
   }
+=======
+
+>>>>>>> 5edef2ec9407cceefa6efb24a9cd1026b5282bd2
     
