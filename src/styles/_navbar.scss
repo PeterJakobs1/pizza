@@ -45,7 +45,6 @@
                         overflow-x: hidden;
                         transition: transform .4s, .2s width .5s cubic-bezier(1,-0.15,.5,1.45);
                     }
-
                     &:hover::before{
                         width: 100%;
                         transform: scale(1);
@@ -53,7 +52,6 @@
                 }
             }
         }
-
         .footer{
             margin-top: 1rem;
             display: flex;
@@ -64,8 +62,6 @@
                 text-align: center;
                 padding: 1rem;
                 font-size: small;
-                
-                
             }
 
         .location-img-container {
@@ -91,16 +87,18 @@
 }
 @media screen and (max-width: 768px) {
     .footer{
-        text-align: -webkit-center
+        text-align: -webkit-center;
+        margin-top: 40px;
+        padding: 20px;
     }
- 
-    
+
     .location-img-container {
         width: 50%;
         display: flex;
         justify-content: center;
         flex-direction:row;
         align-items: center;
+        margin-top: 25px;
         
     }
 

@@ -34,11 +34,11 @@ function NavBar() {
                 <footer className="footer">
                     <div className="location-img-container">
                         <img src={bergen} alt="bergen" />
-                        <h5>Bergen</h5>
+                        <h7>Bergen</h7>
                     </div>
                     <div className="location-img-container">
                         <img src={oslo} alt="oslo" />
-                        <h5>Oslo</h5>
+                        <h7>Oslo</h7>
                     </div>
                 </footer>
             </nav>
